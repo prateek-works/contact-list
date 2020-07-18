@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    margin: 0;
+    background-color: rgb(78, 151, 84);  
+}
+#heading{
+    margin-left: -14%;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+#listItems{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    width: 298px;
+  
+}
+li{
+    width: 300px;
+    margin-left: 30%;
+    padding-bottom: 2px;
+}
+li:hover{
+    background-color: purple;
+}
+form{
+    display: flex;
+    width: 300px;
+   
+    margin-left: 31.8%;
+}
+input[type ="text"]{
+    width: 120px;
+}
+input[type ="number"]{
+    width: 120px;
+}
+.delete-button{
+    display: inline-block;
+    margin-left: 90%;
+    margin-top: -12%;
+    
+}
+
